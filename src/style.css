@@ -474,7 +474,11 @@ td>ul>li {
     html {
         font-size: 90%;
     }
-
+    .information {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 2rem;
+    }
     .wrapper {
         flex-direction: column;
     }
