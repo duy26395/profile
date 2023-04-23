@@ -112,7 +112,6 @@ body {
 
 .education {
     display: flex;
-    justify-content: space-around;
 }
 
 .info-section i {
@@ -165,6 +164,9 @@ body {
 
 .detail-section {
     transition: all 0.3s;
+}
+.detail .edu{
+    width: 50%;    
 }
 
 .detail-section:not(:last-of-type) {
