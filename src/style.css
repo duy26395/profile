@@ -155,7 +155,7 @@ body {
 .detail {
     flex: 1 0 0;
     background-color: white;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .detail:hover>.detail-section:not(:hover) {
@@ -179,7 +179,7 @@ body {
 }
 
 .detail-section>.detail-content {
-    padding: 1.5rem;
+    padding: 0.5rem;
     padding-left: 2rem;
     user-select: none;
 }
@@ -441,7 +441,7 @@ body {
     padding: 5px 10px;
 }
 
-.styled-table tbody tr {
+.styled-table thead td {
     border-bottom: 1px solid var(--color-gray-light-2);
 }
 
@@ -449,8 +449,12 @@ body {
     background-color: var(--color-gray-light-1);
 }
 
-.styled-table tbody tr:last-of-type {
+.styled-table thead:first-of-type {
     border-bottom: 2px solid var(--color-blue-dark-1);
+}
+
+.styled-table tbody td:first-of-type {
+    width: 20%;
 }
 
 td>ul {
